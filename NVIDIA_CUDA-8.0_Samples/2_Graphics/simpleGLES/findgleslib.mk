@@ -55,7 +55,7 @@ endif
 ifeq ("$(TARGET_OS)","linux")
     # $(info) >> findgllib.mk -> LINUX path <<<)
     # Each set of Linux Distros have different paths for where to find their OpenGL libraries reside
-    UBUNTU_PKG_NAME = "nvidia-367"
+    UBUNTU_PKG_NAME = "nvidia"
     UBUNTU = $(shell echo $(DISTRO) | grep -i ubuntu      >/dev/null 2>&1; echo $$?)
     FEDORA = $(shell echo $(DISTRO) | grep -i fedora      >/dev/null 2>&1; echo $$?)
     RHEL   = $(shell echo $(DISTRO) | grep -i 'red\|rhel' >/dev/null 2>&1; echo $$?)

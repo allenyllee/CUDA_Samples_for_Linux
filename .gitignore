@@ -21,3 +21,4 @@
 */7_CUDALibraries/cuHook/libcuhook.so.1
 */bin/x86_64/linux/release/libcuhook.so.1
 */0_Simple/simpleSeparateCompilation/simpleDeviceLibrary.a
+.history/
